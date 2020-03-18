@@ -22,4 +22,12 @@
   2.  Run some commands to install additional programs: `RUN npm install`
   3.  Specify a command to run on container startup: `CMD ["npm","start"]` 
 
+**3. Build image from Dockerfile**
 * To build the image, use `docker build .`
+
+**4. Run image as Container**
+* `docker run vidya25/simpleweb`
+
+**5. Connect to web app from browser**
+* Port Mapping: `docker run -p 8080:8080 vidya25/simpleweb`
+
