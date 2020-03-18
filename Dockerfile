@@ -1,6 +1,9 @@
 # Specify base image
 FROM node:alpine
 
+# Add working directory
+WORKDIR /usr/app
+
 # Copy the content from local machine to container
 COPY ./ ./
  
