@@ -15,3 +15,13 @@
 * First create package.json and index.js
 * To install the node dependencies, run `npm install`
 * To start the server, run `npm start` or `node index.js`
+
+**2. Create a Dockerfile**
+| Steps | Template  |Node Project   |
+|---|---|---|---|---|
+| 1  |Specify Base Image |FROM alpine |
+| 2  |Run some commands to install additional programs |RUN npm install |
+| 3  |Specify a command to run on container startup |CMD ["npm","start"] |
+|
+
+* To build the image, use `docker build .`
