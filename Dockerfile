@@ -1,7 +1,10 @@
 # Specify base image
 FROM node:alpine
 
-# Install some dependenccies
+# Copy the content from local machine to container
+COPY ./ ./
+ 
+# Install some dependencies
 RUN npm install
 
 #Default command
