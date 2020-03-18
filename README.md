@@ -10,3 +10,8 @@
 3. Build image from Dockerfile
 4. Run image as Container
 5. Connect to web app from browser
+
+**1. Create Node JS App**
+* First create package.json and index.js
+* To install the node dependencies, run `npm install`
+* To start the server, run `npm start` or `node index.js`
